@@ -1,0 +1,1829 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\size large
+Aplicación de una ontología para la utilización del sistema Transmilenio
+ en Bogotá-Colombia.
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+NRC 8047
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Docente 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+MSc Carlos Andrés Sierra
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Estudiante
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Carlos Guzman Martínez - Id 314663
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+06 de junio de 2017
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+La descripción del dominio en la ontología se describe como un riguroso
+ esquema conceptual que permite la mejora de la aplicación en la web, se
+ está diseñando una ontología que permita explicar la utilización del sistema
+ Transmilenio en Bogotá- Colombia.
+ Palabras claves para entender la ontología: Sistema, transporte público,
+ sector, usuarios, taquilla, empleados.
+ La ontología se construye con el fin de transmitir el conocimiento de la
+ utilización del sistema Transmilenio, esto con el fin de dar a entender
+ a otras generaciones la utilización y la forma en que se debe manejar el
+ sistema, su uso se presenta en la sociedad debido a que a diario utilizamos
+ el sistema, y en ocasiones desconocemos el uso del mismo generando problemas
+ para los demás.
+ La ontología se puede manejar 
+\emph on
+de
+\emph default
+ la siguiente forma a continuación se muestra el escenario donde nosotros
+ como usuario utilizamos el transporte público y otros individuos que pueden
+ ser relacionados con nosotros al utilizar el sistema: 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+\begin_inset Graphics
+	filename Primer escenario de ontologia.png
+	width 50cm
+	height 50cm
+	BoundingBox 0bp 0bp 399bp 308bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+A continuación, se muestra el comportamiento de términos Methody para la
+ explicación correspondiente.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+
+\size large
+Glosario de términos 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="14" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conceptos
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Articulado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abordaje
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Accidente
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Acción Disciplinaria
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aforo o afluencia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Agentes del Sistema
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alcoholemia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alcoholimetría
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alcohosensor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rotate="90" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Alerta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Altavoz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Amenaza
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Antecedentes disciplinarios
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Aplastamiento
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Área Pública
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacidad del vehículo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carril
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carriles de tráfico mixto
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carril Preferencial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Carteleras
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Centro de Control
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ciclista
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ciclo parqueadero
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Código
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comunicación Organizacional
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Comunity Manager
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dato privado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dato semiprivado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Datos sensibles
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Demanda
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ejercicio de seguridad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Equipo de seguridad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Emergencia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Portales
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estaciones Intermedias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estándares de operación del Servicio de Transporte
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Usuario del sistema
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estación
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estaciones de Integración Intermedia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Estaciones Troncales Sencillas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Frecuencia de servicios o frecuencia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flota
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Franjas Horarias
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fuentes de información
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hora punta u hora pico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Hora valle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inspección
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Itinerario
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Manejo Preventivo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Mapa de Procesos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medios Masivos de Comunicación
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medio de Pago
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Monitor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Movilidad reducida
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operación del Sistema Transmilenio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Operador de bus
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Orientador
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paradero
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pasajero
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Paseador
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Plataforma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Puntos de Parada
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Punto de Venta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recomoto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ruta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ruta complementaria
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ruta especial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rutero
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Seguridad Vial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Semáforo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Señal de tránsito
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Servicio Alimentador
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tabla Horaria
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taquilla 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tarifa al Usuario
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Usuario
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zona
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+Tabla de referencia para glosario [1].
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Taxiomas de conceptos
+\end_layout
+
+\begin_layout Enumerate
+Clases
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Usuario
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–>Nombre, edad, saldo, ultimo_acceso, no_tarjeta, contraseña,tipo_tarje
+ta,tipo_usuario,web.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–>Ciclista, usuario normal, usuario alborotador, pasajero, paseador.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–> Abordar, afluente, accidentarse, alcoholizado, con antecedentes,
+ con cicla.
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–>
+\begin_inset Graphics
+	filename clases/usuario.png
+	BoundingBox 0bp 0bp 366bp 168bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Flota
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–> Placa, peso, tamaño, contrato, tipo flota, tiempo recorrido,
+ capacidad, ruta.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–>Articulado, alimentadores, SITP.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–>Manejo preventivo, afluencia, accidentarse, llenarse, frecuencia,
+ adelantamientos.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–> 
+\begin_inset Graphics
+	filename clases/flota.png
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Agentes del sistema
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–>Cedula, nombre, contraseña, ultimo acceso, edad, web, cargo.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–>Comunity Manager, paramédicos, monitor operador de bus, recomoto,
+ orientador, rutero, policía.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–> Abordar, accidentarse, alcoholizado, con antecedentes, con cicla,
+ conducir, inspeccionar, vigilar, revisar antecedentes, comunicación, organizaci
+ón, seguridad, resguardar, proteger la información.
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–>
+\begin_inset Graphics
+	filename clases/agentes del sistema.png
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Estaciones y portales
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–> Id, nombre, dirección, tipo.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–> Estaciones intermedias, estándares de operación del servicio de
+ transporte, estaciones de integración intermedia, estaciones troncales
+ sencillas.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–> Afluencia, comunicación visual, comunicación auditiva, paradero.
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–> 
+\begin_inset Graphics
+	filename clases/estacion.png
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Centro de control
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–>Id, no tarjeta, tipo de horario.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–> No es necesario clasificar para la ontología.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–> Seguimiento, coordinación, registro de datos, demanda de usuarios.
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–>
+\begin_inset Graphics
+	filename clases/centro de control.png
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Rutas
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Atributos–> Código, nomenclatura, nombre, sentido, actualización, puente.
+\end_layout
+
+\begin_layout Enumerate
+Tipos–> No es necesario clasificar para la ontología.
+\end_layout
+
+\begin_layout Enumerate
+Acciones–> Rutas georreferenciación.
+\end_layout
+
+\begin_layout Enumerate
+Representación gráfica de la clase–> 
+\begin_inset Graphics
+	filename clases/ruta.png
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\align center
+
+\size large
+Relaciones binarias ad hoc 
+\end_layout
+
+\begin_layout Itemize
+Un usuario aborda un articulado 
+\end_layout
+
+\begin_layout Itemize
+Estación o articulados tienen afluencia 
+\end_layout
+
+\begin_layout Itemize
+Pruebas de alcoholimetría a usuarios del sistema y agentes del sistema por
+ medio del Alcohosensor 
+\end_layout
+
+\begin_layout Itemize
+Usuario con lesión simple por medio de un accidente 
+\end_layout
+
+\begin_layout Itemize
+Usuario con lesión grave por medio de un accidente 
+\end_layout
+
+\begin_layout Itemize
+Usuario con lesión fatal por medio de un accidente 
+\end_layout
+
+\begin_layout Itemize
+Articulado genera adelantamiento en la vía 
+\end_layout
+
+\begin_layout Itemize
+Estación tiene varias alertas informativas 
+\end_layout
+
+\begin_layout Itemize
+Estación tiene varios altavoces 
+\end_layout
+
+\begin_layout Itemize
+Agente de sistema puede revisar antecedentes a varios usuarios 
+\end_layout
+
+\begin_layout Itemize
+Articulado tiene un máximo de puestos 
+\end_layout
+
+\begin_layout Itemize
+Usuario del sistema visualiza varias carteleras 
+\end_layout
+
+\begin_layout Itemize
+Centro de control supervisa los articulados 
+\end_layout
+
+\begin_layout Itemize
+Ciclista parquea cicla en estación 
+\end_layout
+
+\begin_layout Itemize
+Ruta se maneja con un código de ruta 
+\end_layout
+
+\begin_layout Itemize
+Usuario del sistema que se encarga de revisar contenido del sistema en Internet
+ 
+\end_layout
+
+\begin_layout Itemize
+Un ente de control identifica la demanda de usuarios 
+\end_layout
+
+\begin_layout Itemize
+Articulado tiene un estándar de trasporte publico
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Definiciones
+\end_layout
+
+\begin_layout Description
+Abordaje: Acto de subir a bordo de un vehículo en el Sistema, antes de que
+ este inicie su movimiento.
+\end_layout
+
+\begin_layout Description
+Accidente: Suceso imprevisible de tipo operacional que presenta fatalidades
+ o lesiones graves y daños estructurales de importancia, tanto en los buses
+ como en la infraestructura del sistema o de la comunidad.
+ 
+\end_layout
+
+\begin_layout Description
+Accidente_Simple: Es un accidente de tránsito que produce daños materiales,
+ más no lesionados ni fatalidades.
+ 
+\end_layout
+
+\begin_layout Description
+Accidente_con_Herido_o_Lesionado: Se trata de un accidente de tránsito con
+ resultado de heridas de mayor o menor grado, en el que puede o no haber
+ daños materiales.
+ 
+\end_layout
+
+\begin_layout Description
+Accidente_con_Fatalidad: Se trata de un accidente de tránsito con consecuencia
+ de pérdida de una o más vidas.
+ Se puede tipificar en el término de un mes, en el caso que la víctima fallezca
+ en dicho periodo, ya sea después del accidente o por causa del mismo.
+ 
+\end_layout
+
+\begin_layout Description
+Adelantamiento: Maniobra mediante la cual un vehículo se pone delante de
+ otro vehículo que lo antecede en el mismo carril de una calzada.
+ 
+\end_layout
+
+\begin_layout Description
+Aforo_o_afluencia: Capacidad máxima que puede albergar un lugar público.
+ En este caso el objeto del aforo en Transmilenio S.A.
+ es calcular o pronosticar la cantidad de personas que necesitan ser movilizadas
+ a corto, mediano y largo plazo.
+ 
+\end_layout
+
+\begin_layout Description
+Agentes_del_Sistema: Se consideran agentes del sistema, aquellas empresas
+ y/o entidades que ejecutan algún tipo de actividad dentro del Sistema,
+ para el adecuado funcionamiento del mismo en cualquiera de sus aspectos
+ operativos.
+ 
+\end_layout
+
+\begin_layout Description
+Alcoholemia: Cantidad de alcohol en la sangre que tiene una persona en determina
+do momento.
+ 
+\end_layout
+
+\begin_layout Description
+Alcoholimetría: Examen de laboratorio o prueba por medio de un equipo especializ
+ado que determina el nivel de alcohol etílico en la sangre de forma directa
+ o indirecta.
+ 
+\end_layout
+
+\begin_layout Description
+Alcohosensor: Dispositivo que determina el nivel o concentración de alcohol
+ en sangre de una persona a través de medir la cantidad de alcohol presente
+ en el aire expirado por esta, es decir es una alcoholimetría realizada
+ de forma indirecta.
+ 
+\end_layout
+
+\begin_layout Description
+Altavoz: Canal de comunicación masivo en portales y estaciones intermedias
+ para brindar información de interés a los usuarios.
+ 
+\end_layout
+
+\begin_layout Description
+Capacidad_del_vehículo: Número máximo de pasajeros que puede transportar
+ el vehículo.
+ 
+\end_layout
+
+\begin_layout Description
+Carril: Parte de la calzada destinada al tránsito de una sola fila de vehículos
+ (Código Nacional de Tránsito, Art.2).
+ 
+\end_layout
+
+\begin_layout Description
+Carriles_de_tráfico_mixto: Carriles sobre los cuales podrán circular los
+ vehículos particulares como automóviles, camiones, motocicletas y vehículo
+ de transporte público individual tipo taxi.
+ 
+\end_layout
+
+\begin_layout Description
+Carril_Preferencial: Carril de una vía principal, con dedicación específica
+ para la circulación de los vehículos de alta capacidad del Sistema, definida
+ para efectos de la operación por la Secretaría Distrital de Movilidad.
+ 
+\end_layout
+
+\begin_layout Description
+Carteleras: Medio de comunicación para dar a conocer las campañas y estimular
+ actitudes en los equipos de trabajo y ciudadanos hacia las metas organizacional
+es, normatividad, civismo, manejo del sistema de transporte y procedimientos
+ definidos por los órganos de control y dirección.
+ El objetivo de las carteleras, es difundir información escrita pertinente
+ a los grupos de interés al interior y exterior de la Entidad, de acuerdo
+ con las directrices del equipo de comunicaciones.
+ 
+\end_layout
+
+\begin_layout Description
+Centro_de_Control: Lugar especialmente acondicionado que integra los equipos,
+ software, datos y personal, para la localización, seguimiento, coordinación
+ y demás actividades de control de la flota del Sistema Integrado de Transporte
+ Público.
+ 
+\end_layout
+
+\begin_layout Description
+Ciclista: Conductor de bicicleta o triciclo (Código Nacional de Tránsito.
+ Cicloparqueadero: Espacio físico, generalmente cubierto, acondicionado
+ con la infraestructura necesaria para estacionar y asegurar las bicicletas.
+ 
+\end_layout
+
+\begin_layout Description
+Código: Código alfanumérico que se utiliza en el sistema de comunicaciones
+ para el manejo de la operación del Sistema Integrado de Transporte Publico.
+ 
+\end_layout
+
+\begin_layout Description
+Community_Manager: El responsable o gestor de una comunidad de internet,
+ en línea, digital o virtual y quien actúa como administrador de la información
+ que en él se contiene.
+ 
+\end_layout
+
+\begin_layout Description
+Dato_privado: Por su naturaleza íntima o reservada sólo es relevante para
+ el titular.
+ 
+\end_layout
+
+\begin_layout Description
+Dato_semiprivado: Dato que no tiene naturaleza íntima, reservada, ni pública
+ y cuyo conocimiento o divulgación puede interesar no sólo a su titular
+ sino a cierto sector o grupo de personas o a la sociedad en general.
+ 
+\end_layout
+
+\begin_layout Description
+Datos_sensibles: Aquellos que afectan la intimidad del Titular o cuyo uso
+ indebido puede generar su discriminación, tales como aquellos que revelen
+ el origen racial o étnico, la orientación política, las convicciones religiosas
+ o filosóficas, la pertenencia a sindicatos, organizaciones sociales, de
+ derechos humanos o que promueva intereses de cualquier partido político
+ o que garanticen los derechos y garantías de partidos políticos de oposición,
+ así como los datos relativos a la salud, a la vida sexual, y los datos
+ biométricos.
+\end_layout
+
+\begin_layout Description
+Demanda: Cantidad de pasajeros movilizados en un determinado rango de tiempo
+ y espacio.
+ 
+\end_layout
+
+\begin_layout Description
+Ejercicio_de_seguridad: Un ejercicio de seguridad es un simulacro con el
+ objetivo de cerciorarse de que la respuesta de cada dependencia participante
+ y los componentes del plan de contingencia, tales como el sistema de comunicaci
+ones, son adecuados.
+ 
+\end_layout
+
+\begin_layout Description
+Equipo_de_seguridad: Dispositivos especializados que se utilizan, individualment
+e o como parte de un sistema, en la prevención o detección de contravenciones
+ en sus instalaciones y servicios.
+ 
+\end_layout
+
+\begin_layout Description
+Emergencia: Todo evento identificable en el tiempo, que produce un estado
+ de perturbación funcional en el sistema, por la ocurrencia de un evento
+ indeseable, que en su momento exige una respuesta mayor a la establecida
+ mediante los recursos normalmente disponibles, produciendo una modificación
+ sustancial pero temporal, sobre el sistema involucrado, el cual compromete
+ a la comunidad o el ambiente, alterando los servicios e impidiendo el normal
+ desarrollo de las actividades esenciales.
+ 
+\end_layout
+
+\begin_layout Description
+Portales: Puntos donde se recogen y despachan pasajeros desde y hacia las
+ zonas de alimentación urbanas y con la red intermunicipal.
+ La integración en este tipo de estaciones es mayoritariamente física.
+ 
+\end_layout
+
+\begin_layout Description
+Estaciones_Intermedias: Puntos donde se recogen y despachan pasajeros desde
+ y hacia las zonas de alimentación urbanas.
+ La integración en este tipo de estaciones es mayoritariamente física.
+ 
+\end_layout
+
+\begin_layout Description
+Estándares_de_operación_del_Servicio_de_Transporte: Conjunto de parámetros
+ asociados con un nivel de servicio adecuado al pasajero, entre los cuales
+ se incluyen accesibilidad, condiciones de aseo, comodidad, mantenimiento
+ de los vehículos, regularidad en el servicio y seguridad.
+ 
+\end_layout
+
+\begin_layout Description
+Estación: Es el lugar autorizado para el ascenso y el descenso de pasajeros.
+ 
+\end_layout
+
+\begin_layout Description
+Estaciones_de_Integración_Intermedia: Son puntos sobre los corredores principale
+s en los que los usuarios pueden realizar transbordos entre rutas alimentadoras
+ urbanas y rutas troncales.
+ 
+\end_layout
+
+\begin_layout Description
+Estaciones_Troncales_Sencillas: Puntos de parada sobre los corredores troncales
+ en los cuales no existe integración física entre las rutas no troncales
+ y el sistema troncal del SITP.
+ La integración en este tipo de estaciones será virtual a través del medio
+ de pago.
+ 
+\end_layout
+
+\begin_layout Description
+Frecuencia_de_servicios_o_frecuencia: Es la tasa de paso de vehículos en
+ una unidad de tiempo para un servicio determinado.
+ 
+\end_layout
+
+\begin_layout Description
+Flota: Es el conjunto de buses del Sistema Transmilenio con las características,
+ especificaciones y tipología previstas por el contrato de concesión de
+ operación troncal y el contrato de concesión de operación alimentadora
+ y requeridos por el Sistema Transmilenio para la prestación del servicio
+ público de transporte masivo urbano de pasajeros bajo la modalidad terrestre
+ automotor, a través de la operación troncal y alimentador.
+ 
+\end_layout
+
+\begin_layout Description
+Franjas_Horarias: Rangos de tiempo establecidos en los cuales se mantiene
+ una frecuencia uniforme.
+ 
+\end_layout
+
+\begin_layout Description
+Fuentes_de_información: Es la conjugación del sistema distrital de quejas
+ y soluciones, la policía, los gestores zonales, las entidades distritales
+ y/o nacionales, amigos estratégicos, funcionarios internos o externos a
+ la entidad, presidentes de juntas de acción comunal, líderes comunitarios,
+ redes de información, entidades privadas o cualquier persona que suministre
+ información sobre la posible ocurrencia de un hecho que pueda afectar el
+ normal funcionamiento de la operación del Sistema Integrado de Transporte
+ Público.
+\end_layout
+
+\begin_layout Description
+Hora_punta_u_hora_pico: Intervalo de tiempo en el que se presenta el mayor
+ número de pasajeros en el sistema de transporte en un intervalo de un día.
+ 
+\end_layout
+
+\begin_layout Description
+Hora_valle: Los intervalos de tiempo antes, entre y después de las horas
+ pico.
+ 
+\end_layout
+
+\begin_layout Description
+Inspección: La aplicación de medios técnicos o de otro tipo, destinados
+ a identificar y/o detectar armas, explosivos u otros artefactos, objetos
+ o sustancias peligrosos en el Sistema de Transporte Masivo.
+\end_layout
+
+\begin_layout Description
+Itinerario: Recorrido efectuado por un autobús zonal, en una ruta o servicio
+ programado, en un horario asignado.
+ 
+\end_layout
+
+\begin_layout Description
+Manejo_Preventivo: Es la técnica de conducción habitual en la cual el operador
+ (conductor) conoce y respeta las normas de tránsito, las normas del Sistema
+ Integrado de Transporte Público, las prácticas preventivas de conducción
+ , y adicionalmente interpreta de forma permanente todas las variables del
+ tráfico, previendo y anticipándose a aquellas situaciones o actos inseguros
+ de los demás actores del tráfico que puedan desencadenar un accidente,
+ actuando antes de que este se produzca con el fin de evitarlo.
+\end_layout
+
+\begin_layout Description
+Mapa_de_Procesos: Representación gráfica de los procesos y la operación
+ de la Entidad y en la que se clasifican en estratégicos, misionales, de
+ apoyo y de evaluación o control.
+ 
+\end_layout
+
+\begin_layout Description
+Medios_Masivos_de_Comunicación: Son la herramienta que permite mantener
+ informada a la opinión pública sobre lo que pasa a nivel nacional o internacion
+al.
+ Se trata de canales (Prensa, Radio, Televisión y medios digitales) que
+ entregan información, noticias e imágenes sobre lo que acontece alrededor
+ de los ciudadanos.
+ 
+\end_layout
+
+\begin_layout Description
+Medio_de_Pago: Son las tarjetas inteligentes sin contacto usadas en el sistema
+ para acumular unidades de viaje y acceder al sistema mediante su validación.
+ 
+\end_layout
+
+\begin_layout Description
+Monitor: Funcionario encargado de coordinar y monitorear un grupo de orientadore
+s asignados.
+ 
+\end_layout
+
+\begin_layout Description
+Movilidad_reducida: Es la restricción para desplazarse que presentan algunas
+ personas debido a una discapacidad o que sin ser discapacitadas presentan
+ algún tipo de limitación en su capacidad de relacionarse con el entorno
+ al tener que acceder a un espacio o moverse dentro del mismo, salvar desniveles
+, alcanzar objetos situados en alturas normales.
+ 
+\end_layout
+
+\begin_layout Description
+Operación_del_Sistema_Transmilenio: Actividad desarrollada por los buses
+ del Sistema Transmilenio, tendiente a la prestación del servicio de transporte
+ masivo de pasajeros entre puntos de parada ubicados sobre los corredores
+ exclusivos del Sistema Transmilenio y cada una de las zonas de alimentación
+ desde y hacia el Portal y/o Estación intermedia respectiva.
+ 
+\end_layout
+
+\begin_layout Description
+Operador_de_bus: Funcionario vinculado a cada empresa operadora, que cuenta
+ con la idoneidad física, psicológica y legal para conducir los vehículos
+ que integran el Sistema de Transporte público gestionado por Transmilenio
+ S.A.
+ 
+\end_layout
+
+\begin_layout Description
+Orientador: Funcionario encargado de guiar a los usuarios en el sistema
+ con el fin de optimizar el servicio de transporte.
+ 
+\end_layout
+
+\begin_layout Description
+Paradero: Es el lugar autorizado para el ascenso y el descenso de pasajeros.
+ 
+\end_layout
+
+\begin_layout Description
+Pasajero: Persona distinta del conductor que se transporta en un vehículo
+ público.
+ 
+\end_layout
+
+\begin_layout Description
+Paseador: Pasajero que no ha hecho validación previa al ingreso a las zonas
+ pagas del Sistema.
+ 
+\end_layout
+
+\begin_layout Description
+Plataforma: Área definida en un portal, estación o paradero, destinada a
+ dar cabida a los usuarios para el abordaje a los vehículos del Sistema.
+ 
+\end_layout
+
+\begin_layout Description
+Punto_crítico_de_accidentalidad: Es el lugar específico de la vía que presenta
+ una frecuencia de accidentes de tránsito, excepcionalmente elevada respecto
+ a la media del Sistema, o donde existe un alto riesgo de que se presenten
+ accidentes.
+ 
+\end_layout
+
+\begin_layout Description
+Puntos_de_Parada: Son los puntos de la ciudad sobre los corredores utilizados
+ para la operación de los servicios zonales, duales y de alimentación del
+ Sistema, donde deben parar los vehículos para recoger y dejar pasajeros.
+ Éstos podrán tener diferente tratamiento físico dependiendo del corredor
+ y de su demanda.
+ 
+\end_layout
+
+\begin_layout Description
+Punto_de_Venta: Es el lugar en el que se dispensan y recargan los medios
+ de pago para utilizar el Sistema de Transporte Masivo gestionado por TMSA.
+ Recomoto: Auxiliar Operativo, Técnico Operativo o quien designe Transmilenio
+ S.A., que cuenta con una motocicleta para desplazarse o recorrer operativamente
+ las diferentes troncales del sistema, estos son ubicados estratégicamente
+ por el centro de control.
+\end_layout
+
+\begin_layout Description
+Ruta: Una Ruta de una línea es un recorrido entre dos puntos extremos de
+ la línea.
+ Un bus que complete el recorrido de una ruta de la línea habrá realizado
+ un Viaje.
+ Los puntos de inicio y final de una ruta son paradas de cabecera.
+ También podrá haber rutas con origen o destino en un depósito.
+ 
+\end_layout
+
+\begin_layout Description
+Ruta_complementaria: Servicios provenientes de la periferia de la ciudad
+ o de su zona de influencia, que canalizan la demanda del servicio hacia
+ el Sistema Transmilenio S.A., mediante su integración operativa y tarifaría
+ con el Sistema troncal.
+ 
+\end_layout
+
+\begin_layout Description
+Ruta_especial: Servicio de atención a zonas de difícil acceso (cerros) a
+ zonas rurales o de muy baja demanda, no cuenta con paraderos en tramos
+ rurales por lo que la acción de dejar o recoger pasajeros se realiza por
+ solicitud del usuario.
+ 
+\end_layout
+
+\begin_layout Description
+Rutero: Indicador electrónico de destino tipo LED con caracteres color BLANCO
+ o ÁMBAR sobre fondo NEGRO, que presenta la información del servicio que
+ se encuentra prestando el vehículo.
+ Está ubicado delante del vehículo en la parte superior del parabrisas.
+ 
+\end_layout
+
+\begin_layout Description
+Seguridad_Vial: es aquel conjunto de acciones y mecanismos encaminados a
+ prevenir los accidentes de tránsito buscando salvaguardar la vida, su campo
+ de acción no se centra solo en los conductores u operadores como factor
+ humano que incide en el accidente, sino también en los demás elementos
+ del tránsito como son: las normas de aplicación general (Código Nacional
+ de Tránsito.
+ 
+\end_layout
+
+\begin_layout Description
+Semáforo: Dispositivo electromagnético o electrónico para regular el tránsito
+ de vehículos, peatones mediante el uso de señales luminosas.
+ 
+\end_layout
+
+\begin_layout Description
+Señal_de_tránsito: Dispositivo físico o marca especial, de carácter preventivo,
+ reglamentario e informativo, que indica la forma correcta como deben transitar
+ los usuarios de las vías.
+ 
+\end_layout
+
+\begin_layout Description
+Servicio_Alimentador: Servicios provenientes de la periferia de la ciudad
+ o de su zona de influencia, que canalizan la demanda del servicio hacia
+ el Sistema Transmilenio, mediante su integración operativa y tarifaría
+ con el Sistema troncal.
+ Ayuda a movilizarse desde y hacia las zonas aledañas a los portales y estacione
+s intermedias del Sistema Transmilenio Servicio.
+\end_layout
+
+\begin_layout Description
+Tabla_Horaria: Es la definición de la hora de despacho desde la estación
+ de origen de los autobuses asignados a los respectivos servicios, con precisión
+ de hora, minutos y segundos, así como también la definición del tiempo
+ de llegada de los autobuses a las correspondientes estaciones sencillas
+ y de integración, de acuerdo con cada uno de los servicios.
+ 
+\end_layout
+
+\begin_layout Description
+Taquilla_(o_punto_de_venta): Espacio físico en el cual se realiza la venta
+ de los medios de pago necesarios para acceder al Sistema Transmilenio.
+ 
+\end_layout
+
+\begin_layout Description
+Tarifa_al_Usuario: Es el costo del pasaje para la utilización de los servicios
+ del Sistema Transmilenio, que se cobra a los pasajeros del sistema.
+ La tarifa al usuario ha sido estructurada sobre la base de la tarifa técnica
+ de operación, la cual es única e integrada dentro del sistema, y está en
+ condiciones de reflejar la variación de costos del sistema.
+ 
+\end_layout
+
+\begin_layout Description
+Usuario: Ciudadano o ciudadana a quien le presta la Entidad un servicio
+ de transporte y la comunicación de información en la vía en caso de ser
+ necesario.
+ 
+\end_layout
+
+\begin_layout Description
+Zona: Área geográfica en la que el operador será responsable por el suministro
+ de transporte al interior de dicha zona y por los servicios que se originen
+ desde su zona hacia el resto de zonas del Sistema, de acuerdo con las responsab
+ilidades pactadas contractualmente y con el fin de garantizar la coberturaaccesi
+bilidad, calidad y regularidad del servicio.
+\end_layout
+
+\begin_layout Standard
+\align center
+En la siguiente imagen se muestra la ontología propuesta para el programa
+ protege
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Ontologia.protege.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+Bibliografia
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\align center
+[1]http://www.Transmilenio.gov.co/Publicaciones/glosario_de_terminos_de_Transmileni
+o
+\end_layout
+
+\begin_layout Standard
+\align center
+https://sites.google.com/site/jojooa/inteligencia-artificial/definicion-de-methont
+ology-que-es-methontology
+\end_layout
+
+\end_body
+\end_document
